@@ -1,0 +1,179 @@
+html{
+    height: 100vh;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    background: #75419b;
+
+}
+
+
+
+.logo{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+center{
+    font-weight: bold;
+}
+
+a{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+
+.pro-1{
+    width: fit-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+    margin: 50px;
+    padding: 50px;
+    font: bolder;
+    border-radius: 10px;
+    border-width: 20px;
+    border-style: solid;
+}
+.pro-3{
+
+    width: fit-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+    margin: 100px;
+    padding: 50px;
+    font: bolder;
+    border-radius: 10px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.pro-2{
+
+    width: fit-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+    margin: 100px;
+    padding: 50px;
+    font: bolder;
+    border-radius: 10px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.pro-5{
+    
+    width: fit-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+    margin: 100px;
+    padding: 50px;
+    font: bolder;
+    border-radius: 10px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.illus{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 250px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}  
+
+.pro-4{
+
+    width: fit-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+    margin: 100px;
+    padding: 50px;
+    font: bolder;
+    border-radius: 10px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.wave{
+    background-color: #ffff;
+    position: relative;
+    height: fit-content;
+}
+
+.overlay{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 50%;
+    transition: transform .2s;
+    height: fit-content;
+}
+.foot{
+    position:relative;
+    width: 100%;
+    display: sticky;
+    bottom: 0px;
+}
+.o-1{
+    left: 30%;
+}
+.o-2{
+    left: 40%;
+
+}
+.o-3{
+    left: 50%;
+}
+.o-4{
+left: 60%;
+}
+.copyright{
+    top: 100px;
+    color: black;
+    font-weight:bold ;
+    left: 40%;
+}
+.intro-para{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold ;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+  @media screen and (min-width:320px) and (max-width:480px) {
+
+    p{
+       font-size: calc(1rem+1vw);
+    }
+}  
+@media only screen and(max-width:600px) {
+.container{
+    flex-direction: column;
+}
+
+}
+.overlay:hover{
+    transform:skew(10deg);
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lady{
+    align-self: flex-end;
+}
